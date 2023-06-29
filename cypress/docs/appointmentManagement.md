@@ -11,6 +11,6 @@
 
 ## Delete
 ### Implemented tests
-- [] Given one or more existent appointment, when click on the delete button intending delete the appointment, should delete the appointment and display a success message.
+- [X] Given one or more existent appointment, when click on the delete button intending delete the appointment, should delete the appointment and display a success message.
 ### Nice to have tests (improvements to react app)
 - [] (SKIP) Given one or more existent appointment, when click on the delete button, should display a "yes/no" alert message asking if the user really wants to delete the appointment.

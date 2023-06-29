@@ -4,11 +4,12 @@
   "description": "This project uses the Object Model Page test pattern and the Cypress test framework to perform tests on the e2e layer in a React application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx cypress run",
+    "test:ide": "npx cypress open",
     "container:exec": "docker exec -it frontend sh -c \"npm start\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Amanda C Stecz Antunes",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^8.0.2",
